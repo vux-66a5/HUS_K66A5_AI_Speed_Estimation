@@ -355,3 +355,4 @@ def predict(cfg):
 
 if __name__ == "__main__":
     predict()
+
