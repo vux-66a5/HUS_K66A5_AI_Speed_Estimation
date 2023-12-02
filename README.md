@@ -1,8 +1,9 @@
-### Author: 
-### https://github.com/MuhammadMoinFaisal/YOLOv8_Segmentation_DeepSORT_Object_Tracking  
-### https://www.youtube.com/watch?v=nkptX_vXJKo
 <H1 align="center">
 YOLOv8 Object Detection and Speed Estimation with DeepSORT Tracking (ID + Trails) </H1>
+<H6> Original Author: Muhammad Moin </H6>
+<a href="https://github.com/MuhammadMoinFaisal/YOLOv8_Segmentation_DeepSORT_Object_Tracking">Github link</a>
+<br>
+<a href="https://www.youtube.com/watch?v=nkptX_vXJKo">Youtube link</a>
 
 ## Original (Author) Google Colab File Link (A Single Click Solution)
 The google colab file link for yolov8 object detection and tracking is provided below, you can check the implementation in Google Colab, and its a single click implementation, you just need to select the Run Time as GPU, and click on Run All.
@@ -18,23 +19,21 @@ The google colab file link for yolov8 object detection and tracking is provided 
 ```
 git clone https://github.com/vux-66a5/HUS_K66A5_AI_Speed_Estimation.git
 ```
-- Goto the cloned folder.
+- Go to the cloned folder.
 ```
 cd HUS_K66A5_AI_Speed_Estimation/YOLOv8-DeepSORT-Object-Tracking
 ```
-- Install the dependecies
+- Install the dependencies
 ```
 pip install -e '.[dev]'
-
 ```
 
 - Setting the Directory.
 ```
 cd ultralytics/yolo/v8/detect
-
 ```
 
-- Run the code with mentioned command below.
+- Run command below.
 
 ```
 python predict.py model=yolov8l.pt source="test2.mp4" show=True
